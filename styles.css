@@ -1,3 +1,74 @@
+/* Css Reset */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
 body {
+    line-height: 1.4;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+img,
+picture,
+video,
+canvas, 
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* End of Reset*/
+
+body {
+    display: flex;
+    flex-direction: column;
+
     background-color: rgb(243, 5, 223);
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 20px;
+    color: white;
 }
