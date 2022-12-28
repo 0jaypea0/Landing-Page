@@ -55,13 +55,29 @@ body {
 }
 
 ul {
+    display: flex;
     list-style-type: none;
     padding: 0%;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-left: auto;
+    gap: 20px;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+header {
+    font-size: 24px;
+    color: #f9faf8;
+    background-color: ;
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center;
 }
 
 footer {
